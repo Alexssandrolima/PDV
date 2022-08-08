@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CasaMendes.Properties {
+namespace PDV.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
@@ -26,11 +26,11 @@ namespace CasaMendes.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\Modelo\\db\\Cas" +
-            "aMDBase.mdf;Integrated Security=True;Connect Timeout=30")]
-        public string CasaMendesConnectionString {
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\Models\\db\\pdv" +
+            ".mdf;Integrated Security=True;Connect Timeout=30")]
+        public string PdvConnectionString {
             get {
-                return ((string)(this["CasaMendesConnectionString"]));
+                return ((string)(this["PdvConnectionString"]));
             }
         }
     }

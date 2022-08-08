@@ -1,8 +1,8 @@
-﻿using CasaMendes.Classes.ADL;
+﻿//using PDV.pdv.Views.empresa;
 using System;
 using System.Windows.Forms;
 
-namespace CasaMendes
+namespace PDV
 {
 
     static class Program
@@ -10,13 +10,18 @@ namespace CasaMendes
         /// <summary>
         /// Ponto de entrada principal para o aplicativo.
         /// </summary>
+        /*
+         * 
+         */ 
+
         [STAThread]
         static void Main()
         {
-            Cl_Dados.Cl_DadosInicio();
+            /// Cl_Dados.Cl_DadosInicio();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Vistas.frmCad_Cliente());
+            Application.Run(new FrmInicioViews());
+
         }
     }
 }

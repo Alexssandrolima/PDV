@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CasaMendes.Properties {
+namespace PDV.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace CasaMendes.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("CasaMendes.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("PDV.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -73,9 +73,9 @@ namespace CasaMendes.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap CasaMendes1Jpg {
+        internal static System.Drawing.Bitmap pdv_jpg {
             get {
-                object obj = ResourceManager.GetObject("CasaMendes1Jpg", resourceCulture);
+                object obj = ResourceManager.GetObject("pdv_jpg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
